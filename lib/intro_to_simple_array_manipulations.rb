@@ -28,6 +28,6 @@ def using_delete(array,string)
 end
 
 def using_delete_at(array,integer)
-  array.pop()
+  array.delete_at(array,2)
   array
 end
